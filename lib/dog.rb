@@ -6,7 +6,7 @@ class Dog
 
   def initialize(name)
     @name = name
-    @@all << name
+    @@all.push(name)
   end
 
   def self.clear_all
